@@ -27,6 +27,9 @@ fn main(){
     //ss1 перестает существовать тк мы отдали его на владение функции
     
     println!("{}",ss2);
+
+    let ss3 =another_function4(ss2);
+    println!("{}",ss3);
 }
 
 
@@ -40,4 +43,9 @@ fn another_function2(n1: i32){
 
 fn another_function3(ss1: String){
     println!("{}",ss1);
+}
+fn another_function4(ss2: String)->String{
+    println!("{}",ss2);
+
+    ss2
 }
