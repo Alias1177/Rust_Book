@@ -19,4 +19,20 @@ fn main(){
     for (idx,value) in slice.iter().enumerate(){
         println!("{} {}", idx, value);
     }
+
+    let b = [1,2,3,4,5];
+    let qwerty = "hello";
+
+    for (idx, value) in b.iter().enumerate(){
+        let r= value*3;
+        println!("{}", r);
+        println!("qqqqqq{} {}", idx, value);
+    }
+
+    for (idx, value) in qwerty.chars().enumerate(){
+        if value == 'l' {
+            continue
+        }
+        println!("{} {}", idx, value);
+    }
 }
