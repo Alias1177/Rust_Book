@@ -1,5 +1,10 @@
 fn main(){
-    
+   //тут ошибка тк компилятор должен знать какого типа будет переменная во время компиляции 
+   //let condition = true;
+
+   // let number = if condition { 5 } else { "six" };
+
+    //println!("The value of number is: {number}");
 
     let c =12;
 

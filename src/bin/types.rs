@@ -10,6 +10,13 @@ fn main(){
     let name = String::from("Rust");
     let ex :&str="OK";//не безопастный
 
+    let z = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {z}");
+
     //if в расте с возврощаемым значением может быть,нужно чекнуть
     let flag: bool =true;
 
@@ -22,10 +29,6 @@ fn main(){
     let s ="Jong";
     let stroka: &str="qwerty";
     let srr =String::from("Jonh");
-
-
-
-
 
     println!("a={},b={},c={},d={},name={}",a,b,c,d,name);
     println!("{}",ex);
