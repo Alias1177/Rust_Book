@@ -25,6 +25,8 @@ fn main(){
     let sq =Rectangle::square(3);
     println!("square is {:?}",sq);
 
+    sq.perimetr();
+
 }
 
 impl Rectangle{
