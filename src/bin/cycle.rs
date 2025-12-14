@@ -58,7 +58,7 @@ let mut num: i128=0;
     //while как loop с условием
     let mut nn = 0;
 
-    while nn!=0 {
+    while nn !=0 {
         nn-=1;
         println!("{}",nn);
     }
